@@ -47,4 +47,4 @@ client.on("message", message => {
    message.delete(); 
   };     
   });
-client.login('token');
+client.login(process.env.BOT_TOKEN);
